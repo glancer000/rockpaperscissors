@@ -1,3 +1,13 @@
 body{
     background: #3c75d1;
 }
+
+.options-area{
+    width: 100%;
+    margin: auto;
+}
+
+.your-options{
+    margin: 0 auto;
+    width:200px
+}

@@ -29,7 +29,7 @@ yourChoicePaper.onclick = function(){
     opponentChoice()
 
     if(option == "paper"){
-        console.log("it's a tie")
+        console.log("It's a tie")
     }
     if(option == "rock"){
         console.log("Paper covers rock. You win!")
@@ -41,15 +41,27 @@ yourChoicePaper.onclick = function(){
 
 yourChoiceRock.onclick = function(){
     opponentChoice()
-    if(opponentChoice == yourChoiceRock){
-        console.log("it's a tie")
+    if(option == "paper"){
+        console.log("Paper covers rock. You Lose!")
+    }
+    if(option == "rock"){
+        console.log("It's a tie")
+    }
+    if(option == "scissors"){
+        console.log("Rock breaks scissors. You win!")
     }
 }
 
 yourChoiceScissors.onclick = function(){
     opponentChoice()
-    if(opponentChoice == yourChoiceScissors){
-        console.log("it's a tie")
+    if(option == "paper"){
+        console.log("Scissors cut paper. You win!")
+    }
+    if(option == "rock"){
+        console.log("Rock breaks scissors. You lose!")
+    }
+    if(option == "scissors"){
+        console.log("It's a tie")
     }
 }
 

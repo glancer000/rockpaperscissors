@@ -1,5 +1,6 @@
 const img = document.createElement("img");
 img.src = "letsplay.jpg"
+img.className = "your-option"
 var src = document.getElementById("opponent");
 src.appendChild(img);
 

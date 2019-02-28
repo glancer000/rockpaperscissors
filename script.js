@@ -1,7 +1,7 @@
 const img = document.createElement("img");
 img.src = "letsplay.jpg"
-img.className = "your-option"
-var src = document.getElementById("opponent");
+img.className = "opponent-options"
+var src = document.getElementById("opponent-choice");
 src.appendChild(img);
 
 const yourChoiceScissors = document.getElementById("scissors");

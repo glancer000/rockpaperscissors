@@ -47,3 +47,11 @@ body, html{
     width: 400px;
     height: 70px;
 }
+
+.results{
+    top: 50vh;
+    margin: auto;
+    position: absolute; 
+    font-size: 3rem;
+    color: white;
+}

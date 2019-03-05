@@ -39,3 +39,11 @@ body, html{
     padding-top: 8%;
     margin: 0 auto;
 }
+
+.start{
+    position: absolute; 
+    top: 50%;
+    right: 50%;
+    width: 400px;
+    height: 70px;
+}
